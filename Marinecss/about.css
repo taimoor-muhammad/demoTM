@@ -1,0 +1,278 @@
+body,
+html {
+    height: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    height: max-content;
+    background-color: #222222;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-booknow-button {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    width: auto;
+    border-radius: 30px;
+}
+
+.navbar-booknow-button:hover {
+    background-color: #007bffcb;
+    color: rgba(255, 255, 255, 0.767);
+    width: auto;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+    transition: ease-in-out;
+}
+
+.Explore-now-btn:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Navbar */
+
+/* **********************************************The hero image **********************************/
+.hero-image {
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.hero-text h6 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.hero-text a {
+    text-decoration: none;
+    color: white;
+}
+.iconrow {
+    font-size: 17px;
+    color: #007bff;
+}
+
+/* *****************************************HeroImage *********************************/
+
+
+/* ****************************custom packages**************************** */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.icon-link {
+    margin-top: .125rem;
+    margin-left: .125rem;
+}
+
+.icon-link:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+/* ****************************custom packages **************************** */
+
+
+/* *********************************cards******************************* */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+
+}
+
+.container .card {
+    width: 330px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+        -0.5em 0.5em 1em #ffffff;
+    border-radius: 20px;
+
+}
+
+.container .card .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container .card .content .img8x {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.container .card .content .img8x img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content .content8x h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container .card .content .content8x h4 {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.container .card .content .sci {
+    margin-top: 20px;
+
+}
+
+.container .card .content .sci a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    transition: color 0.4s;
+
+}
+
+.container .card .content .sci a:hover {
+    color: #d2dce9;
+}
+
+.head {
+    text-align: center;
+}
+
+.services img {
+    position: relative;
+    margin-left: 550px;
+    margin-top: 0;
+    width: 50%;
+}
+
+/* *********************************cards******************************* */
+
+
+
+/* footer  */
+
+.footer {
+    color: white;
+    background-color: #222222;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: max-content;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-email-bar {
+    height: 55px;
+    color: #a9aeb3;
+    border-radius: 0;
+    box-shadow: none;
+    background: #2a2e2f;
+}
+
+.footer-heading {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-button {
+    background-color: #222222;
+    color: white;
+    border-color: white;
+    padding: 15px 35px;
+    border-radius: 0px;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.footer-button:hover {
+    background-color: white;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.copyright {
+    margin-top: 50px;
+    padding-top: 30px;
+    color: #999;
+    border-top: 1px solid rgba(221, 221, 221, 0.1);
+    text-align: center;
+}
+
+.list-unstyled li:hover {
+    margin-left: 2px;
+    text-decoration: underline;
+
+}
+
+.list-unstyled li .twiter:hover {
+    color: rgb(73, 113, 232);
+}
+
+.list-unstyled li .utube:hover {
+    color: red;
+}
+
+.list-unstyled li .insta:hover {
+    color: rgb(184, 31, 118);
+}
+
+.list-unstyled li .fb:hover {
+    color: rgb(73, 113, 232);
+}
+
+.list-unstyled .behance:hover {
+    color: yellow;
+}
+
+/* Footer */

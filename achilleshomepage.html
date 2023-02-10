@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="shortcut icon" href="MarineHomeImages/AchillesWebpagelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Marinecss/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Marinecss/home.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <title>Achilles Boat Rental</title>
+</head>
+
+<body>
+    <!-- <***********************************************NAVIGATION BAR START***********************************************>     -->
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark d-flex" style="background-color: rgba(34, 34, 34, 1);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="achilleshomepage.html">
+                <img src="MarineHomeImages/Achilles Boat Rental Logo.png" alt="Logo" style="height: 30px; width: 100%;">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navtoggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navtoggle">
+                <div class="navbar-nav">
+                    <div class="nav-item">
+                        <a class="nav-link" href="achilleshomepage.html">HOME</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="achillesabout.html">ABOUT</a>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="achillessailing.html" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            OUR FLEET
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="achillessailing.html">SAILING YACHTS</a></li>
+                            <li><a class="dropdown-item" href="achillesmotor.html">MOTOR YACHTS</a></li>
+                            <li><a class="dropdown-item" href="achillesfishing.html">FISHING BOATS</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="achillesnews.html">NEWS</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="achillescontact.html">CONTACTS</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#Bookingform" class="btn btn-outline-secondary navbar-booknow-button"
+                            role="button">BOOK NOW <img src="MarineHomeImages/NavbarBookingIcon.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- <***********************************************NAVIGATION BAR END***********************************************>     -->
+
+
+
+    <!-- <***********************************************HEADER START***********************************************>     -->
+    <Header class="container-fluid p-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="MarineHomeImages/Carouselimage1.jpg" class="d-block w-100" alt="image">
+                    <div class="carousel-caption">
+                        <div class="text-light" style="text-align: start;">
+                            <div class="fw-bold">
+                                <h5>Your Dream Boats</h5>
+                            </div>
+                            <div>
+                                <h1 class="display-2 fw-bold">Most Reliable<br />Luxury Boat Rental</h1>
+                            </div>
+                            <button class="btn fs-3 p-0">
+                                <a href="#" class="text-decoration-none text-light Explore-now-btn">Explore Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="MarineHomeImages/Carouselimage2.jpg" class="d-block w-100" alt="image">
+                    <div class="carousel-caption">
+                        <div class="text-light" style="text-align: start;">
+                            <div class="fw-bold">
+                                <h5>Your Dream Boats</h5>
+                            </div>
+                            <div>
+                                <h1 class="display-2 fw-bolder">Most Reliable<br />Luxury Boat Rental</h1>
+                            </div>
+                            <button class="btn fs-3 p-0">
+                                <a href="#" class="text-decoration-none text-light Explore-now-btn">Explore Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </Header>
+    <!-- <***********************************************HEADER END***********************************************>     -->
+
+
+    <!-- <***********************************************BODY 1 START***********************************************>     -->
+
+    <div class="container-fluid px-5 pt-5">
+        <div class="card fw-bold shadow-lg Body-1-card">
+            <div class="card-body p-5 m-4">
+                <form class="row gx-3 gy-2 align-items-center">
+                    <div class="col-sm-3 Body-1-filter-box">
+                        <label for="specificSizeSelect">Boat Type</label>
+                        <select class="form-select" id="specificSizeSelect">
+                            <option selected>Celebrations</option>
+                            <option value="1">Fishing</option>
+                            <option value="2">Journey</option>
+                            <option value="3">Anniversary</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3 Body-1-filter-box">
+                        <label for="specificSizeSelect">Select Model</label>
+                        <select class="form-select" id="specificSizeSelect">
+                            <option selected>Yacht</option>
+                            <option value="1">Small boat</option>
+                            <option value="2">Speedboat with flybridge</option>
+                            <option value="3">Schooner</option>
+                            <option value="4">Trawler</option>
+                            <option value="5">Cabin cruiser</option>
+                            <option value="6">Monohull</option>
+                            <option value="7">Multihull</option>
+                            <option value="8">Dinghy</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3 Body-1-filter-box">
+                        <label for="specificSizeSelect">Price Range</label>
+                        <select class="form-select" id="specificSizeSelect">
+                            <option selected>Max $150 per day</option>
+                            <option value="1">Max $250 per day</option>
+                            <option value="2">Max $350 per day</option>
+                            <option value="3">Max $450 per day</option>
+                        </select>
+                    </div>
+                    <div class="d-grid gap-2 col-sm-3 pt-4">
+                        <button class="btn Body-1-search-btn" type="button">SEARCH</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-5">
+        <div class="container-fluid col-xxl-12 px-2 pt-5 pb-0">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="MarineHomeImages/Body1Main.png" class="d-block mx-lg-auto img-fluid" alt="" width="800px"
+                        height="556px" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="fw-bold lh-1 mb-3">Providing a large fleet of Boats for a perfect and dreamy
+                        experiences</h1>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, laborum sapiente
+                        ratione similique laboriosam harum illum et consectetur nesciunt nulla deleniti est eius
+                        asperiores rerum mollitia quasi velit libero neque porro sit quidem tenetur dignissimos! Aliquid
+                        ut ab dolores officiis voluptates veritatis incidunt distinctio. Quod cumque natus vitae maxime.
+                    </p>
+                    <ul class="list-unstyled lh-lg">
+                        <li class=""><i class="bi bi-arrow-right me-1"></i>Stunning Cruise Paths You Follow</li>
+                        <li class=""><i class="bi bi-arrow-right me-1"></i>Premium Boats & Yachts</li>
+                        <li class=""><i class="bi bi-arrow-right me-1"></i>Our Professional Approach</li>
+                        <li class=""><i class="bi bi-arrow-right me-1"></i>Quality Service Guaranteed</li>
+                    </ul>
+                    <img src="MarineHomeImages/signature.jpg" alt="Signature">
+                    <p class="ms-2">CEO, Achilles Boat Rentals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 1 END***********************************************>     -->
+
+
+    <!-- <***********************************************BODY 2 START***********************************************>     -->
+    <div class="container-fluid px-5 pb-5 pt-0">
+        <div class="row g-4 py-5 pt-2 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="MarineHomeImages/Body2steering.png" alt="Steeringwheelimage" class="img-fluid">
+                </div>
+                <div>
+                    <h3 class="fs-3">PriceLess Experience</h3>
+                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                    <p>Asmod tempor incididunt labore magna ust enim sed veniams quis nostrud sed commodo ipsum duals.
+                    </p>
+                    <a href="#" class="icon-link d-inline-flex align-items-center text-decoration-none">
+                        READ MORE
+                    </a>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="MarineHomeImages/Body2snorkel.png" alt="Snorkelimage" class="img-fluid bi">
+                </div>
+                <div>
+                    <h3 class="fs-3">Custom Packages</h3>
+                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                    <p>Custom Packages Waters brought evening above fruitful fruit second set man seed spirit it and
+                        subdue I, created.</p>
+                    <a href="#" class="icon-link d-inline-flex align-items-center text-decoration-none">
+                        READ MORE
+                    </a>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="MarineHomeImages/Body2sailor.png" alt="Sailorimage" class="img-fluid">
+                </div>
+                <div>
+                    <h3 class="fs-3">Peoples Oriented</h3>
+                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                    <p>He whose upon them thing life darkness together and male was whose multiply, set seed had fish
+                        divide made.</p>
+                    <a href="#" class="icon-link d-inline-flex align-items-center text-decoration-none">
+                        READ MORE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 2 END***********************************************>     -->
+
+
+    <!-- <***********************************************BODY 3 START***********************************************>     -->
+    <div class="container-fluid px-5 py-5">
+        <div class="card mb-3 Body-3-main">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="MarineHomeImages/Body3DealWeek.jpg" class="img-fluid float-start rounded-3"
+                        alt="Deal Week">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title Body-3-Title">Deal Of The Week</h5>
+                        <h3 class="card-text Body-3-text-1">
+                            DayDream Boat <span class="fs-6 fw-normal Body-3-span-1">Rent For $800 / HRS</span>
+                        </h3>
+                        <p class="card-text Body-3-text-2">
+                            Builder /Model: French Waves | Type/Year: House Boat 2019 | Length: 105 FT 32 M
+                            Charter<br />
+                            Guests: 200 | Crew Members: 6
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-phone"></i> Booking a Charter Boat <strong>+1 755 302 8549</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-5 py-5 Body-3-counter-bg">
+        <div class="row g-3 ">
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box colored-1">
+                    <img src="MarineHomeImages/Body3sailor.png" alt="Sailorimage" class="img-fluid">
+                    <span class="counter">240</span>
+                    <p>Travel Destinations</p>
+                    <p>Offered</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box colored-2">
+                    <img src="MarineHomeImages/Body3snorkel.png" alt="Snorkelimage" class="img-fluid">
+                    <span class="counter">980</span>
+                    <p>Travel Destinations</p>
+                    <p>Offered</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box colored-3">
+                    <img src="MarineHomeImages/Body3beach.png" alt="Beachimage" class="img-fluid">
+                    <span class="counter">175</span>
+                    <p>Travel Destinations</p>
+                    <p>Offered</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box colored-4">
+                    <img src="MarineHomeImages/Body3chefhat.png" alt="Chefhatimage" class="img-fluid">
+                    <span class="counter">630</span>
+                    <p>Travel Destinations</p>
+                    <p>Offered</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 3 END***********************************************>     -->
+
+
+    <!-- <***********************************************BODY 4 START***********************************************>     -->
+    <div class="container-fluid Body-4-main">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="Body-4-text-left Body-4-offers-left">
+                    <h2 class="Body-4-ui-title">Premium Boat<br>
+                        Rental Services</h2> <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid">
+                    <div class="Body-4-offers-left-text">
+                        <p>Eorem ipsum dolor amet consectetur sed adipisicing elit sed eiusmod tempor et dolore magna
+                            aliqua minim veniam, quis nostrud exercitation aliquip ex ea consequat duis aute irure
+                            dolorin.</p>
+                        <a href="#" class="btn Body-4-button" role="button">view more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="MarineHomeImages/Body4slide2.jpg" alt=""
+                                            class="card-img-top img-fluid ">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="Body-4-slide-title">Family Gathering</h2>
+                                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                                    <p class="Body-4-slide-description">The lorem text the section that contains header
+                                        with having
+                                        open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="MarineHomeImages/Body4slide3.jpg" alt=""
+                                            class="card-img-top img-fluid">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="Body-4-slide-title">Corporate Events</h2>
+                                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                                    <p class="Body-4-slide-description">The lorem text the section that contains header
+                                        with having
+                                        open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="MarineHomeImages/Body4slide4.jpg" alt=""
+                                            class="card-img-top img-fluid">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="Body-4-slide-title">Water Sports Boats</h2>
+                                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                                    <p class="Body-4-slide-description">The lorem text the section that contains header
+                                        with having
+                                        open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="MarineHomeImages/Body4slide1.jpg" alt=""
+                                            class="card-img-top img-fluid">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="Body-4-slide-title">Celebration Events</h2>
+                                    <img src="MarineHomeImages/wavylinewhite.png" alt="" class="img-fluid pb-4">
+                                    <p class="Body-4-slide-description">The lorem text the section that contains header
+                                        with having
+                                        open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn shadow-sm"></div>
+                    <div class="swiper-button-prev swiper-navBtn shadow-sm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 4 END***********************************************>     -->
+
+
+
+    <!-- <***********************************************BODY 5 START***********************************************>     -->
+    <section class="Body-5-main Body-5-resize-1" style="background: url(MarineHomeImages/Body5Main.jpg) 0 -105px;">
+        <div class="container Body-5-resize-2">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-10 Body-5-resize-3">
+                    <div class="Body-5-info">
+                        <p><img src="MarineHomeImages/wavylinewhite.png" alt="wavylinewhite.png"
+                                class="img-fluid me-2">Give
+                            us a call or
+                            drop an email, We endeavor
+                            to answer within 24 hours</p>
+                        <h4>We’ve Exclusive Boats With Charter Offers</h4>
+                        <h5>LET’S PLAN YOUR NEXT TOUR!</h5>
+                        <ul>
+                            <li><i class="fas fa-phone-square"></i> Call Us Today: +1 755 302 8549</li>
+                            <li><i class="fas fa-envelope-square"></i> Email: <a
+                                    href="mailto:name@rmy-domain.com">support@my-domain.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2 Body-5-resize-4">
+                    <a class="video-btn venobox ternary-video-btn-style vbox-item popup-youtube" data-vbtype="video"
+                        data-autoplay="true" href="https://www.youtube.com/watch?v=JAIvWg4iQHo"><i
+                            class="fa fa-play"></i>
+                        <span>Watch A Tour</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <***********************************************BODY 5 END***********************************************>     -->
+
+
+
+    <!-- <***********************************************BODY 6 START***********************************************>     -->
+    <div class="container-fluid py-5">
+        <div class="text-center">
+            <h2 class="Body-6-title">Picture Gallery</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <p>Dolore magna aliqua enim ad minim veniam, quis nostrud exercitation aliquip duis aute irure
+                        dolorin <br> reprehenderits vol dolore fugiat nulla pariatur excepteur sint occaecat cupidatat.
+                    </p> <img src="MarineHomeImages/wavylinegold.png" alt="photo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="Body-6-gallery">
+            <div class="row mx-0">
+                <div class="col-lg-3 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img " href="MarineHomeImages/Body6-Gallery-1.jpg"><img
+                            class="Body-6-scal img-fluid" src="MarineHomeImages/Body6-Gallery-1.jpg" alt="photo"></a>
+                </div>
+                <div class="col-lg-3 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-2.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-2.jpg" alt="photo"></a>
+                </div>
+                <div class="col-lg-2 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-3.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-3.jpg" alt="photo"></a>
+                </div>
+                <div class="col-lg-4 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-4.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-4.jpg" alt="photo"></a>
+                </div>
+            </div>
+            <div class="row mx-0">
+                <div class="col-lg-5 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-5.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-5.jpg" alt="photo"></a>
+                </div>
+                <div class="col-lg-2 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-6.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-6.jpg" alt="photo"></a>
+                </div>
+                <div class="col-lg-3 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-7.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-7.jpg" alt="photo"></a>
+                </div>
+                <div class="col-lg-2 col-sm-6 p-0">
+                    <a class="Body-6-gallery-img" href="MarineHomeImages/Body6-Gallery-8.jpg"><img
+                            class="Body-6-scale img-fluid" src="MarineHomeImages/Body6-Gallery-8.jpg" alt="photo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 6 END***********************************************>     -->
+
+    <a href="" name="Bookingform"></a>
+
+    <!-- <***********************************************BODY 7 START***********************************************>     -->
+    <div class="container-fluid px-5 py-5 Body-7-main">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="text-left">
+                    <h2 class="Body-7-title">Booking Form</h2>
+                    <p>Dolore magna aliqua enim ad minim veniam, quis nostrudreprehenderits
+                        <br> dolore fugiat nulla pariatur lorem ipsum dolor sit amet.
+                    </p>
+                    <img src="MarineHomeImages/wavylinegold.png" alt="photo" class="img-fluid">
+                    <form action="" method="get">
+
+                        <div class="row row-form-b">
+
+                            <div class="col-md-6 pb-4">
+                                <div class="form-group">
+                                    <input class="form-control Body-7-form-control" type="text" placeholder="First Name"
+                                        title="Please Enter The Name From A To Z" required pattern="[a-zA-Z\.]{1,8}">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pb-4">
+                                <div class="form-group">
+                                    <input class="form-control Body-7-form-control" type="text" placeholder="Last Name"
+                                        required pattern="[a-zA-Z\.]{1,8}" title="Please Enter The Name From A To Z">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pb-4">
+                                <div class="form-group">
+                                    <input class="form-control Body-7-form-control" type="text" placeholder="Email"
+                                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                        title="Enter A Valid Email Address">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pb-4">
+                                <div class="form-group">
+                                    <input class="form-control Body-7-form-control" type="text" placeholder="Phone"
+                                        pattern="[0-9]+" required title="Please Enter A Valid Phone Number">
+                                </div>
+                            </div>
+                            <div class="col-md-12 pb-4">
+                                <div class="form-group">
+                                    <select name="" id="input-5" class="form-control Body-7-form-control" required
+                                        title="Please Select your required Marina Fleet">
+                                        <option value="">Your Requirement?</option>
+                                        <option value="">Motor Yacht</option>
+                                        <option value="">Sailing Yacht</option>
+                                        <option value="">Fishing Boats</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 pb-4">
+                                <div class="form-group">
+                                    <textarea class="form-control Body-7-form-control-textarea" rows="5"
+                                        placeholder="Mention Details You Would Like Us to Focus On" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn Body-7-button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="text-left">
+                    <h2 class="Body-7-title">Boat Rental FAQ’s</h2>
+                    <p>Dolore magna aliqua enim ad minim veniam, quis nostrudreprehenderits
+                        <br> dolore fugiat nulla pariatur lorem ipsum dolor sit amet.
+                    </p>
+                    <img src="MarineHomeImages/wavylinegold.png" alt="photo" class="img-fluid">
+                </div>
+
+                <div class="ui-accordion accordion" id="accordion-1">
+                    <div class="card">
+                        <div class="card-header" id="heading1">
+                            <h3 class="mb-0">
+                                <button class="ui-accordion__link collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span
+                                        class="ui-accordion__number"></span>How to book a yacht/boat from Nevica? <i
+                                        class="ic fas fa-chevron-down"></i></button>
+                            </h3>
+                        </div>
+                        <div class="collapse.show" id="collapse1" data-aria-labelledby="heading1"
+                            data-parent="#accordion-1">
+                            <div class="card-body">Quis nostrud exercitate laboridy aliquip duis irure sed dolor ipsum
+                                excpture fugiat estan veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                ex velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading2">
+                            <h3 class="mb-0">
+                                <button class="ui-accordion__link collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><span
+                                        class="ui-accordion__number"></span>What are the safety precautions maintained
+                                    by you? <i class="ic fas fa-chevron-down"></i></button>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="collapse2" data-aria-labelledby="heading2" data-parent="#accordion-1">
+                            <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                                anim keffiyeh helvetica, craft beer labore wes anderson</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading3">
+                            <h3 class="mb-0">
+                                <button class="ui-accordion__link collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><span
+                                        class="ui-accordion__number"></span>What if the weather gets unfavourable for
+                                    boating? <i class="ic fas fa-chevron-down"></i></button>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="collapse3" data-aria-labelledby="heading3" data-parent="#accordion-1">
+                            <div class="card-body">truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                Nihil anim keffiyeh helvetica, craft beer labore wes anderson Anim pariatur cliche
+                                reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                                officia aute, non cupidatat skateboard dolor brunch.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading4">
+                            <h3 class="mb-0">
+                                <button class="ui-accordion__link collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><span
+                                        class="ui-accordion__number"></span>Can I bring my own food or drinking
+                                    water? <i class="ic fas fa-chevron-down"></i></button>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="collapse4" data-aria-labelledby="heading4" data-parent="#accordion-1">
+                            <div class="card-body">Nliche reprehenderit, enim eiusmod high life accusamus terry
+                                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a
+                                bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 7 END***********************************************>     -->
+
+
+
+    <!-- <***********************************************BODY 8 START***********************************************>     -->
+    <div class="Body-8-main Body-8-main-bg Body-8-main-bg_dark Body-8-main-bg_op_90 img-fluid pb-5"
+        style="background: url(MarineHomeImages/Body8Main.jpg) no-repeat;">
+        <div class="Body-8-main-bg__inner Body-8-main-default">
+            <div class="container text-center">
+                <div class="text-center">
+                    <h2 class="Body-8-title">What People Say...</h2>
+                    <div class="col-md-8 offset-md-2"><img src="MarineHomeImages/wavylinegold.png" alt="photo"
+                            class="img-fluid">
+                    </div>
+                    <div class="row py-5 text-light">
+                        <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+                            <div class="testimony-39291">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque
+                                        commodi, unde doloribus.</p>
+                                </blockquote>
+                                <div class="d-flex vcard align-items-center">
+                                    <div class="pic mr-3">
+                                        <img src="MarineHomeImages/Body8person1.jpg" alt="Image" class="img-fluid">
+                                    </div>
+                                    <div class="text">
+                                        <strong class="d-block">John Doe</strong>
+                                        <span>CEO and Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+                            <div class="testimony-39291">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque
+                                        commodi, unde doloribus.</p>
+                                </blockquote>
+                                <div class="d-flex vcard align-items-center">
+                                    <div class="pic mr-3">
+                                        <img src="MarineHomeImages/Body8person2.jpg" alt="Image" class="img-fluid">
+                                    </div>
+                                    <div class="text">
+                                        <strong class="d-block">John Doe</strong>
+                                        <span>CEO and Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+                            <div class="testimony-39291">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque
+                                        commodi, unde doloribus.</p>
+                                </blockquote>
+                                <div class="d-flex vcard align-items-center">
+                                    <div class="pic mr-3">
+                                        <img src="MarineHomeImages/Body8person3.jpg" alt="Image" class="img-fluid">
+                                    </div>
+                                    <div class="text">
+                                        <strong class="d-block">John Doe</strong>
+                                        <span>CEO and Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 8 END***********************************************>     -->
+
+
+
+    <!-- <***********************************************BODY 9 START***********************************************>     -->
+    <div class="container-fluid px-5 py-5">
+        <div class="text-center">
+            <h2 class="Body-9-title">Industry News</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <p>Dolore magna aliqua enim ad minim veniam, quis nostrud exercitation aliquip duis aute
+                        irure dolorin <br> reprehenderits vol dolore fugiat nulla pariatur excepteur sint
+                        occaecat cupidatat.</p> <img src="MarineHomeImages/wavylineblue.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="pt-2 row">
+            <div class="col-xl-4 col-md-4">
+                <div class="Body-9-main Body-9-main-3">
+                    <div class="entry-media">
+                        <a href="post.html"><img class="img-scale img-fluid" src="MarineHomeImages/Body9-news-1.jpg"
+                                alt="photo"></a>
+                    </div>
+                    <div class="entry-meta">
+                        <time class="entry-meta__item" datetime="2019-01-31">June 15, 2021</time> <span
+                            class="entry-meta__item">
+                            by
+                            <a class="text-primary" href="blog.html">Achilles</a></span>
+                    </div>
+                    <div class="entry-main">
+                        <div class="entry-header">
+                            <h2 class="entry-title"><a href="post.html">Corporate yacht for smooth
+                                    running of main events</a></h2>
+                        </div>
+                        <div class="entry-content">Aiusmod tempor incididunt labore dolore magna ust enim sed
+                            veniams quis nostrud</div>
+                    </div> <a class="Body-9-btn" href="post.html">Read More</a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4">
+                <div class="Body-9-main Body-9-main-3">
+                    <div class="entry-media">
+                        <a href="post.html"><img class="img-scale img-fluid" src="MarineHomeImages/Body9-news-2.jpg"
+                                alt="photo"></a>
+                    </div>
+                    <div class="entry-meta">
+                        <time class="entry-meta__item" datetime="2019-01-31">June 12, 2022</time> <span
+                            class="entry-meta__item">
+                            by
+                            <a class="text-primary" href="blog.html">Achilles</a></span>
+                    </div>
+                    <div class="entry-main">
+                        <div class="entry-header">
+                            <h2 class="entry-title"><a href="post.html">The Best staff members for
+                                    your service available</a></h2>
+                        </div>
+                        <div class="entry-content">Aiusmod tempor incididunt labore dolore magna ust enim sed
+                            veniams quis nostrud</div>
+                    </div> <a class="Body-9-btn" href="post.html">Read More</a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4">
+                <div class="Body-9-main Body-9-main-3">
+                    <div class="entry-media">
+                        <a href="post.html"><img class="img-scale img-fluid" src="MarineHomeImages/Body9-news-3.jpg"
+                                alt="photo"></a>
+                    </div>
+                    <div class="entry-meta">
+                        <time class="entry-meta__item" datetime="2019-01-31">January 3, 2023</time> <span
+                            class="entry-meta__item">
+                            by
+                            <a class="text-primary" href="blog.html">Achilles</a></span>
+                    </div>
+                    <div class="entry-main">
+                        <div class="entry-header">
+                            <h2 class="entry-title"><a href="post.html">Don’t worry about comfort
+                                    and company facilities</a></h2>
+                        </div>
+                        <div class="entry-content">Aiusmod tempor incididunt labore dolore magna ust enim sed
+                            veniams quis nostrud</div>
+                    </div> <a class="Body-9-btn" href="post.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 9 END***********************************************>     -->
+
+
+
+    <!-- <***********************************************BODY 10 START***********************************************>     -->
+    <div class="container-fluid px-5 py-5 Body-10-Sponsors">
+        <div class="row">
+            <div class="col-12 col-lg-2 col-md-4">
+                <img src="MarineHomeImages/Sponsor1.jpg" alt="Sponsor1" class="img-fluid p-2 d-block mx-auto">
+            </div>
+            <div class="col-12 col-lg-2 col-md-4">
+                <img src="MarineHomeImages/Sponsor2.jpg" alt="Sponsor2" class="img-fluid p-2 d-block mx-auto">
+            </div>
+            <div class="col-12 col-lg-2 col-md-4">
+                <img src="MarineHomeImages/Sponsor3.jpg" alt="Sponsor3" class="img-fluid p-2 d-block mx-auto">
+            </div>
+            <div class="col-12 col-lg-2 col-md-4">
+                <img src="MarineHomeImages/Sponsor4.jpg" alt="Sponsor4" class="img-fluid p-2 d-block mx-auto">
+            </div>
+            <div class="col-12 col-lg-2 col-md-4">
+                <img src="MarineHomeImages/Sponsor5.jpg" alt="Sponsor5" class="img-fluid p-2 d-block mx-auto">
+            </div>
+            <div class="col-12 col-lg-2 col-md-4">
+                <img src="MarineHomeImages/Sponsor6.jpg" alt="Sponsor6" class="img-fluid p-2 d-block mx-auto mt-4">
+            </div>
+        </div>
+    </div>
+    <!-- <***********************************************BODY 10 END***********************************************>     -->
+
+
+
+    <!-- <***********************************************FOOTER START***********************************************>     -->
+
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <p class="pb-2"><img src="MarineHomeImages/Achilles Boat Rental Logo.png" alt="Image"
+                            class="img-fluid">
+                    </p>
+                    <p class="pb-5" style="border-bottom: 1px solid rgba(221, 221, 221, 0.1);">Nothing says summer like
+                        a boat full of life jackets and happy kids. Not only will you have fun, but you will also be
+                        prepared for the worst.</p>
+                    <h4 class="pt-3"><span>Subscribe Newsletter</span></h4>
+                    <input class="footer-email-bar form-control" type="email" placeholder="YOUR EMAIL">
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer-heading pt-3"><span>Boat Services</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Wedding Facility</a></li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Cruise and Marina</a>
+                        </li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Yacht Party Event</a>
+                        </li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Corporate Event</a></li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Fishing Cruisers</a></li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Overnight Stay</a></li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Birthday Party Event</a>
+                        </li>
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Boar Rentals</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer-heading pt-3"><span>About Achilles</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="achilleshomepage.html"><i class="bi bi-chevron-right"></i>Home</a></li>
+                        <li><a href="achillesabout.html"><i class="bi bi-chevron-right"></i>About</a></li>
+                        <li><a href="achillessailing.html"><i class="bi bi-chevron-right"></i>Our Fleet</a></li>
+                        <li><a href="achillesnews.html"><i class="bi bi-chevron-right"></i>News</a></li>
+                        <li><a href="achillescontact.html"><i class="bi bi-chevron-right"></i>Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="footer-heading pt-3"><span>Get In Touch</span></h4>
+                    <ul class="list-unstyled"
+                        style="color: #a9aeb3; border-bottom: 1px solid rgba(221, 221, 221, 0.1); padding-bottom: 87px;">
+                        <li><i class="bi bi-geo-alt-fill pe-1"></i>Fairview Ave, El Monte, CA 91732</li>
+                        <li><a href="#"><i class="bi bi-envelope-fill pe-1"></i>support@achilles.com</a></li>
+                        <li><i class="bi bi-headset pe-1"></i>Phone: +1 755 302 8549</li>
+                    </ul>
+                    <ul class="list-unstyled d-flex justify-content-evenly">
+                        <li><a href="achillescontact.html"><i class="bi bi-twitter px-2 twiter"></i></a></li>
+                        <li><a href="achillescontact.html"><i class="bi bi-behance px-2 behance"></i></a></li>
+                        <li><a href="achillescontact.html"><i class="bi bi-facebook px-2 fb"></i></a></li>
+                        <li><a href="achillescontact.html"><i class="bi bi-instagram px-2 insta"></i></a></li>
+                        <li><a href="achillescontact.html"><i class="bi bi-youtube px-2 utube"></i></a></li>
+                    </ul>
+                    <a href="#Bookingform" class="btn footer-button" role="button">CONFIRM BOOKING</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright">
+                        <p>
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> Achilles, Inc. Achilles, AND
+                            ANY ASSOCIATED LOGOS ARE SOLE REGISTERED TRADEMARK OF Achilles INC. <i
+                                class="icon-heart text-danger" aria-hidden="true"></i> by <a
+                                href="achilleshomepage.html">Achilles Boat Rental</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <***********************************************FOOTER END***********************************************>     -->
+
+
+
+
+
+
+
+
+    <script src="Marinejs/swiper-bundle.min.js"></script>
+    <script src="Marinejs/marine.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
